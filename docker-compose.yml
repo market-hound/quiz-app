@@ -1,0 +1,8 @@
+version: '3'
+services:
+  quiz-app:
+    build: .
+    ports:
+      - "3005:3005"
+    environment:
+      NODE_ENV: production
